@@ -5,9 +5,11 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "node scripts/test.js --env=jsdom"
   },
-  "homepage": "https://tikitest.github.io/public",
+  "homepage": "https://tikitest.github.io",
   "devDependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -106,6 +108,7 @@
   },
   "dependencies": {
     "eslint-plugin-prettier": "^2.6.2",
+    "gh-pages": "^1.2.0",
     "prettier": "^1.14.2"
   }
 }
