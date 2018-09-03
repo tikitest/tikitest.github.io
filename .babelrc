@@ -1,0 +1,8 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    'emotion',
+    'lodash',
+    'transform-object-rest-spread'
+  ]
+}
