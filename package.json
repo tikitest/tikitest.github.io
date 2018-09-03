@@ -7,6 +7,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
+  "homepage": "https://tikitest.github.io",
   "devDependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
