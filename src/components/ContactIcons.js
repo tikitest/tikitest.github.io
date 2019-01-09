@@ -9,18 +9,18 @@ const ContactSection = styled.div({
 
 const ContactIcons = () => (
   <ContactSection className="contact-section">
-    <a href="mailto:teresado.21t@gmail.com" target="_blank">
+    <a href="mailto:teresado.21t@gmail.com" rel="noopener noreferrer" target="_blank">
       <i class="fa fa-envelope" />
     </a>
-    <a href="https://linkedin.com/in/tdo21" target="_blank">
-      <i class="fa fa-linkedin" />
+    <a href="https://linkedin.com/in/tdo21" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-linkedin" />
     </a>
-    <a href="https://github.com/tk21" target="_blank">
-      <i class="fa fa-github-alt" />
+    <a href="https://github.com/tk21" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-github-alt" />
     </a>
 
-    <a href="https://github.com/tk21" target="_blank">
-      <i class="fa fa-file" />
+    <a href="https://codepen.io/tk21" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-codepen" />
     </a>
   </ContactSection>
 )

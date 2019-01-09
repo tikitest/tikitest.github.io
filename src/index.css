@@ -6,7 +6,8 @@ body {
   font-weight: 200;
 }
 
-.fa {
+.fa,
+.fab {
   font-size: 36px;
   display: inline-block;
   color: #8ead58; /*green*/
